@@ -1,22 +1,9 @@
-h1,
-h2 {
-  font-family: Lato;
+body {
+    background-color: green;
 }
 
 canvas {
-  background: #111;
-  /*background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/map_1.jpg) no-repeat center;*/
-  background-size: cover;
-  display: block;
-}
-
-html {
-  min-height: calc(100% + env(safe-area-inset-top));
-  padding: env(safe-area-inset-top) env(safe-area-inset-right)
-    env(safe-area-inset-bottom) env(safe-area-inset-left);
-}
-
-body {
-  background-color: red;
-  text-align: center;
+    background: #111;
+    background-size: cover;
+    display: block;
 }

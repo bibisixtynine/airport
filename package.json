@@ -1,6 +1,9 @@
 {
-  "name": "js",
+  "name": "index",
   "version": "0.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "vite": "^4.0.4"
+  },
+  "type" : "module"
 }

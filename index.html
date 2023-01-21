@@ -21,44 +21,26 @@
     <!------------------------------------------------>
     <!-- ICONs --------------------------------------->
     <!------------------------------------------------>
-    <link id="favicon" rel="icon" href="favicon150x150.png" type="image/png" />
     <!------------------------------------------------>
 
     <!------------------------------------------------>
     <!-- PWA setup ----------------------------------->
     <!------------------------------------------------>
 
-    <!-- manifest -->
-    <link rel="manifest" href="manifest.json" />
 
     <!-- increase the compatibilty of the manifest for ios/windows...-->
-    <script
-      async
-      src="https://unpkg.com/pwacompat"
-      crossorigin="anonymous"
-    ></script>
+
 
     <!-- service worker -->
-    <script>
-      if (location.protocol == 'http:') location.protocol = 'https:';
-      if ('serviceWorker' in navigator) {
-        navigator.serviceWorker
-          .register('sw.js')
-          .then((reg) =>
-            console.log('+-> (1) 😍 Service Worker registered', reg)
-          )
-          .catch((err) =>
-            console.error('!!! (-) 🆘 Service Worker **not** registered', err)
-          );
-      } else {
-        console.warn('!!! (-) 🆘 Service Worker not supported in this browser');
-      }
-    </script>
+
     <!------------------------------------------------>
+    <script type='module' src = 'index.js'></script>
+
+  
   </head>
 
   <body>
-    <h1>hello</h1>
+    <h1>hello world</h1>
   </body>
   
 </html>

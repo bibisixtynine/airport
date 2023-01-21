@@ -1,5 +1,7 @@
 // Import stylesheets
-import './style.css';
+import '/style.css';
+
+console.log('index.js started')
 
 // queue to land
 // number of docked or approaching planes
