@@ -185,7 +185,7 @@ $.Port.prototype.render = function( i ) {
   $.ctx.fill();  
  
   $.ctx.fillStyle = '#fff';
-  $.ctx.fillText( this.approachingCount, this.x, this.y - 30 );
+  //$.ctx.fillText( this.approachingCount, this.x, this.y - 30 );
 };
 
 $.Plane = function( opt ) {
